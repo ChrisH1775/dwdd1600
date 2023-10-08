@@ -1,0 +1,148 @@
+body {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0;
+}
+
+/*---Header---*/
+
+header {
+    font-style: italic;
+    background-color: #3F3743;
+    padding: 1rem 3vw;
+}
+header h1 {
+    letter-spacing: 1px;
+    margin: 0;
+    color:#F6EAFF;
+}
+header p {
+    margin: 0;
+    font-size: 25px;
+    color:#F6EAFF;
+    letter-spacing: 1.2px;
+}
+
+/*---Nav---*/
+
+nav {
+   background-color: #E7DAF9;
+        
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0 2vw;
+    margin: 0;
+    display: flex;
+}
+nav a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color:#3F3743;
+    font-weight: 700;
+    display: block;
+    padding: .83rem 2rem;
+}
+nav li.active a {
+    background-color:#786980; 
+    color:#F6EAFF;
+}
+nav a:hover {
+    color: #fff;
+}
+
+/*---Main---*/
+
+main {
+    padding: 1rem 2vw;
+}
+main h1 {
+    color:#5C477A;
+    padding: .1rem;
+    margin-bottom: .1rem;
+    
+}
+main h2 {
+    color:#786980;
+    margin-bottom: .2rem;
+    
+}
+main p {
+    color:black;
+    margin: 0 0 .3rem 0;
+}
+main h3 {
+    background-color:#F6EAFF;
+    color:#5C477A;
+    padding: .1rem;
+}
+main ol {
+    padding: .2rem 3vw;
+    margin-top: .3rem;
+    line-height: 170%;
+    
+}
+main dl dt {
+    color: #5C477A;
+    font-weight: 700
+}
+main dl dd { 
+    color:#786980;
+    font-size: .9rem;
+}
+main ul {
+    list-style-type: circle;
+    
+}
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+}
+main address {
+    font-style: normal;
+    background-color: #F6EAFF;
+    padding: .5rem;
+    width: 14.25rem;
+    border: 1px solid #786980;
+    border-radius: .2rem;
+}
+main a {
+    color:#914794;
+} 
+main a:hover{
+    color:#BD91FB;
+    
+}
+
+/*---Footer---*/
+
+footer {
+    background-color: #786980;
+    text-align: center;
+    color: #F6EAFF;
+    padding: .1rem;
+    font-size: .95rem;
+}
+footer a{
+    color:#F6EAFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
