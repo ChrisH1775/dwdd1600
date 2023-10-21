@@ -136,7 +136,7 @@ figure.tight figcaption {
     font-style: italic;
     font-size: 1rem;
     color: #786980;
-    padding: 1rem 2;
+    padding: .3rem 0;
     background-color: #F6EAFF;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
