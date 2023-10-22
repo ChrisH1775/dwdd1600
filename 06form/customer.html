@@ -1,0 +1,103 @@
+<!doctype html>
+    <html lang="en">
+        <head>
+            <meta charset="utf-8">
+            <meta name="author" content="Chris Hall">
+            <meta name="description" content="Permanent Jewelry">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Royal Treasures: Home</title>
+        <link rel="stylesheet" href="travler.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+            
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ephesis&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Pinyon+Script&display=swap" rel="stylesheet">    
+        </head>
+        
+        <body>
+            
+            <!-- start the page header -->
+            
+                <header>
+                    <h1>Royal Treasures</h1>
+                    <p>Permanent Jewelry</p>
+                </header>
+            
+            <!-- start the page navigation -->
+            
+            <nav>
+                <ul>
+                    <li><a href="index.html">Products</a></li>
+                    <li><a href="materials.html">Materials</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li class="active"><a href="customer.html">New Customer</a></li>
+                </ul>
+            </nav>
+                
+            <!-- start the page main -->    
+                
+            <main>
+                <h1>New Customer</h1>
+                <form method="get" class="myform" action="thanks.html">
+                <fieldset>
+                <legend>Customer Information</legend>    
+                <label>First Name*<input type="text" name="fname" required></label>
+                <label>Last Name*<input type="text" name="lname" required></label> 
+                <label>Cell phone* <input type="tel" name="phone" required placeholder="000-000-0000"></label> 
+                <label>Email* <input type="email" name="email" required placeholder="example@email.com"></label>   
+                </fieldset> 
+                
+                <fieldset>
+                 <legend>Type of Bracelet</legend>   
+                    <label><input type="radio" name="bracelets" value="solo">Solo Bracelet</label>  
+                    <label><input type="radio" name="bracelets" value="friendship">Foreverbond Friendship Bracelet</label> 
+                    <label><input type="radio" name="bracelets" value="eternity">Eternity bond Bracelet</label>
+                </fieldset>    
+                <fieldset>
+                 <legend>Metal Option</legend>   
+                  <label><input type="checkbox" name="ygold" value="chosen">Yellow Gold</label>
+                  <label><input type="checkbox" name="wgold" value="chosen">White Gold</label>  
+                  <label><input type="checkbox" name="rgold" value="chosen">Rose Gold</label>
+                  <label><input type="checkbox" name="ssilver" value="chosen">Sterling Silver</label>  
+                    <label>Jewelry Type
+                    <select name="jewelry">
+                    <option value="none">Please Select</option>
+                    <option value="wrist">Bracelet</option> 
+                    <option value="ankle">Anklet</option>
+                    <option value="necklace">Necklace</option>
+                    </select>
+                    </label>
+                </fieldset>  
+                  <label>Comments
+                    <textarea name="comments"></textarea>
+                    </label>  
+                    
+                    
+                    
+                    
+                    
+                    
+                <input type="submit" value="Send Request">
+                </form>
+                
+                
+               
+            </main>   
+                
+            <!-- start of page footer -->
+            
+            <footer>
+            <p>&copy; 2023 &bull; Chris Hall &bull; <a href="mailto:chrislhall15@gmail.com">Email Us</a></p>
+            
+            </footer>
+            
+                
+                
+        </body>
+
+
+
+
+    </html>
